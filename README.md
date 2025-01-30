@@ -32,5 +32,13 @@ The goal of this project is to analyze the sentiment of social media posts (e.g.
 - **Visualization**: Results are visualized using Matplotlib.
 
 ---
+## File Structure
 
+---
+
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-project.git
+   cd sentiment-analysis-project
 
