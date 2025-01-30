@@ -34,3 +34,22 @@ The goal of this project is to analyze the sentiment of social media posts (e.g.
 ---
 
 ## File Structure
+sentiment-analysis-project/
+├── README.md # Project description and instructions
+├── requirements.txt # Python dependencies
+├── data/ # Folder for datasets
+│ └── social_media_data.csv # Example dataset
+├── models/ # Folder for saved models
+│ ├── logistic_regression_model.pkl # Trained Logistic Regression model
+│ └── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
+├── notebooks/ # Folder for Jupyter notebooks
+│ └── sentiment_analysis.ipynb # Main notebook for EDA and modeling
+├── src/ # Folder for source code
+│ ├── preprocess.py # Script for data preprocessing
+│ ├── train_model.py # Script for training the model
+│ ├── visualize.py # Script for visualizing results
+│ └── predict.py # Script for making predictions
+├── results/ # Folder for saving visualizations
+│ └── sentiment_distribution.png # Example visualization
+└── tests/ # Folder for unit tests
+└── test_preprocess.py # Example test script
